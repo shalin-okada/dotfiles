@@ -1,0 +1,36 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+brew "docker"
+brew "firebase-cli"
+brew "fish"
+brew "gh"
+brew "git"
+brew "gitmoji"
+brew "jq"
+brew "mas"
+brew "nodenv"
+brew "rbenv"
+brew "starship"
+brew "terminal-notifier"
+brew "tree"
+brew "yarn", ignoreDependencies: true
+cask "adobe-creative-cloud"
+cask "coteditor"
+cask "deepl"
+cask "discord"
+cask "docker"
+cask "figma"
+cask "google-chrome"
+cask "iterm2"
+cask "notion"
+cask "postman"
+cask "slack"
+cask "visual-studio-code"
+cask "zoomus"
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
