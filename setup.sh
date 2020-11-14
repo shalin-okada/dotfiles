@@ -30,7 +30,7 @@ launchctl load ~/Library/LaunchAgents/localhost.homebrew-upgrade.plist
 # configの配置
 mkdir ~/.config
 cp ./com.googlecode.iterm2.plist ~/.config
-co ./starship.toml ~/.config
+cp ./starship.toml ~/.config
 mkdir ~/.config/brewfile
 cp ./Brewfile ~/.config/brewfile
 mkdir ~/.config/fish
