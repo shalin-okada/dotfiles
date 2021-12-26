@@ -1,3 +1,11 @@
 # コマンド実行時間
 [cmd_duration]
 disabled = true
+
+# AWS
+[aws]
+disabled = false
+
+# バッテリー
+[battery]
+disabled = true

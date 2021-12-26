@@ -1,0 +1,11 @@
+[user]
+  name = Shalin Okada
+  email = shalin.okada@wnd.co.jp
+[ghq]
+  root = /Users/shalin.okada/git
+[push]
+  default = current
+[alias]
+  delete-merged-branch = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|master'|xargs git branch -d; };f"
+[pull]
+  rebase = false
